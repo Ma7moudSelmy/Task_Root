@@ -6,7 +6,7 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 0, 0, 0),
+      backgroundColor: const Color.fromARGB(221, 29, 24, 24),
       appBar: AppBar(
         backgroundColor: Colors.green,
         leading: IconButton(
@@ -40,7 +40,9 @@ class HomeView extends StatelessWidget {
             icon: Icon(Icons.more_vert, color: Colors.white),
             onPressed: () {},
           ),
+        
         ],
+        
       ),
       body: Container(
         width: double.infinity,
